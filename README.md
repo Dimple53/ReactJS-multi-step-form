@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+1. Clone the repository: git clone https://github.com/Dimple53/ReactJS-multi-step-form.git
+2. Install dependencies: npm install
+3. Install Bulma CSS dependencies: npm i bulma prop-types
+4. Run the application: npm start
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This ReactJS code showcases a versatile multi-step form, demonstrating the power of React hooks, including useState and useEffect, coupled with the PropTypes library for robust prop validation.
 
-## Available Scripts
+Key Features:
 
-In the project directory, you can run:
+1. Multi-Step Form: The code organizes a multi-step form enabling users to seamlessly navigate through distinct sections to input their details.
+2. Dynamic Rendering: Leveraging React's flexibility, the form dynamically renders input fields based on a data structure. This supports various input types such as text, and select.
+3. PropTypes Validation: Prop types are harnessed through the PropTypes library to enforce rigorous type-checking for component props. This ensures the correct data types are passed, fostering code reliability.
+4. Local Storage Persistence: User form data persists in local storage. Even after a page reload, the user's input data is retrieved, delivering a seamless and continuous user experience.
+5. React Hooks: The code maximizes the utility of React hooks, with useState managing component state efficiently and useEffect handling side effects. This includes synchronizing form data with local storage for a seamless user experience.
+6. Conditional Rendering: Conditional rendering is employed to dynamically display different steps of the form based on the current step value, enhancing the user interface.
+7. Back and Next Navigation: Users can navigate between form steps using "Back" and "Next" buttons. The "Back" button is conditionally displayed, ensuring a smooth user experience when progressing through the form.
+8. Form Submission: Although the code includes a form submission function (currently commented out), it provides a placeholder for integrating logic such as sending data to an API endpoint or dispatching actions in a Redux store.
 
-### `npm start`
+Usage:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+As a robust foundation, this code is an ideal starting point for developing multi-step forms in React applications. Developers can effortlessly customize input types, add validation logic, and seamlessly integrate form submissions as per project requirements.
+Dependencies:
+The Bulma CSS framework is incorporated for styling, enhancing the visual appeal and responsiveness of the form.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Note:
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Ensure all necessary dependencies are installed (react, react-dom, prop-types, etc.), and the Bulma CSS file is available for styling
